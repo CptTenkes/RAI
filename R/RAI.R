@@ -32,7 +32,7 @@ RAIgral <- function(new.mat, Species, parRow, parCol, pointSize) {
   table1 <- cbind(cameras, days, n, RAIgral, OccNaive = OccNaive[,2])
   table1 <- table1[order(RAIgral),]
   print(table1)
-  #write.csv(table1, "Results/Table_RAIgral.csv")
+  write.csv(table1, "Results/Table_RAIgral.csv")
 
   # ---------------------------------
   ## RAI-naive occupation graph:
