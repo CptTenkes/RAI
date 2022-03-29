@@ -1,0 +1,35 @@
+Package: RAI
+Type: Package
+Title: Estimation of Relative Abundance Index from camera-traps
+Version: 0.1.0
+Author: Mandujano, S.
+Maintainer: SMandujanoR <salvador.mandujano@inecol.mx>
+Description: This package calculate the relative abundance indices 
+      (encounter rates) of animal species obtained with camera-traps. 
+      The package calculate the RAI through three models: 
+      1) traditional or classical model grouping total data by species; 
+      2) alternative model that allows estimating the variation considering 
+      the data from each camera; and 3) as a generalized linear Poisson model 
+      with trapping days as offset. The package have several aditional functions to generate and store tables, graphs, maps and statistical analyzes. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Imports:
+    adehabitatHR,
+    adehabitatMA,
+    agricolae,
+    camtrapR,
+    dplyr,
+    fuzzySim,
+    methods,
+    prettymapr,
+    raster,
+    sp,
+    stringr,
+    tidyr,
+    xtable
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
