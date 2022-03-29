@@ -1,0 +1,14 @@
+Functions,Description
+data,data examples
+dataFormat,allow to format the data obtained with the camtrapR package
+miGrid,function to create a camera grid for posible field designs
+RAIalt,alternative model
+RAIfinal,summary table
+RAIglm,Poisson GLM model
+RAIglmSp, GLM regression of the selected species and covariates
+RAIgral,classic model
+RAIinterp,interpolation graphic 
+RAIkernelSp,map of kernel density of the selected species
+RAImapSpp,map of RAI 
+RAIsim,function to RAI simulations
+RAIsp,estimation and comparison of RAI for a selected species
