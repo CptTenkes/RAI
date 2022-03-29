@@ -1,3 +1,6 @@
+
+# S Mandujano R
+
 # General description
 
 The main propose of this package is to provide different functions to calculate the RAIs for the species captured with cameras-traps in the same or different locations and seasons. The `RAI` package was development with few functions that allow automatic store of tables, statistical results, figures and maps. 
