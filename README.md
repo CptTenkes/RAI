@@ -1,17 +1,9 @@
----
-title: "RAI: an R package to calculate relative abundance index from camera-traps"
-subtitle: "Package vignette"
-author: "Salvador Mandujano R"
-date: "Version: `r format(Sys.time())`"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{RAI}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
 
 # RAI
 RAI: an R package to calculate relative abundance index from camera-traps
+
+# Author
+Salvador Mandujano R
 
 # General description
 
